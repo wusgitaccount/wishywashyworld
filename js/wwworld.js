@@ -1,1 +1,7 @@
-alert('hello!');
+//alert('hello!');
+
+(function () {
+
+	scrollConverter.activate();
+
+}());

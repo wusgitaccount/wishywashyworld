@@ -4,7 +4,58 @@
 }
 
 /* Global Styles go here */
-body {
-  background: white;
+.body {
   color: black;
+  background-image: url("../assets/background.jpg") ;
+}
+img {
+  width:100%;
+}
+.ww-page {
+  width: 100%;
+  overflow: hidden;
+  position:relative;
+}
+
+.ww-page-inner {
+  width: 100%;
+  overflow:hidden;
+  position: relative;
+}
+
+.ww-page-side-image-container {
+  width:30%;
+  float:left;
+}
+.ww-page-main-image-container {
+  width:70%;
+  float:left;
+}
+
+/* .ww-image-collage {
+  positon: relative;
+  z-index: 2;
+}
+.ww-image-col--bendyman {
+  margin-top: 15%;
+  margin-left: 20%;
+  z-index: -4;
+
+}
+.ww-image-col--blinking {
+  z-index: 3;
+  margin-left: 36%;
+  float: left;
+  margin-top: -5%;
+} */
+.ww-page-top-image-container {
+  width:100%;
+}
+.ww-page-bottom-image-container {
+  width:50%;
+  margin: 0 auto;
+}
+.ww-page-left-image-container{
+  width:50%;
+  float:left;
 }
