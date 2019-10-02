@@ -1,10 +1,6 @@
 //alert('hello!');
 
-(function () {
 
-	scrollConverter.activate();
-
-}());
 function toggle_visibility(ww-title) {
 	 var e = document.getElementById(ww-title);
 	 if(e.style.display == 'block')

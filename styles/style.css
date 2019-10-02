@@ -25,12 +25,25 @@ img.ww-title {
   top: 0;
   z-index: 100;
 }
+.ww-sidebar {
+  width:5%;
+  background-color: #FFFCFD;
+}
+
+.ww-sidebar-inner img {
+  transform-origin: 45% 55%;
+  transition: transform 1s, filter .5s ease-out;
+}
+/* The Transformation */
+.ww-sidebar-inner:hover img {
+  transform: scale(2);
+}
+
 .ww-page-inner {
   width: 100%;
   overflow:hidden;
   position: relative;
 }
-
 .ww-page-side-image-container {
   width:30%;
   float:left;
