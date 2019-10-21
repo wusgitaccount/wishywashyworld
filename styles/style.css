@@ -26,9 +26,11 @@ img {
 
 
 .ww-title {
-  position: sticky;
-  position: -webkit-sticky;
+
   top: 0;
+
+}
+.ww-audio {
 
 }
 tr {
@@ -80,24 +82,6 @@ tr {
   z-index:-1;
 }
 
-/*@media all and (max-width:1300px)
-{
-    .ww-bendyman
-    {
-        display: block;
-        float: none;
-        width: 40%;
-    }
-}
-@media all and (max-width:800px)
-{
-    .ww-bendyman
-    {
-        display: block;
-        float: none;
-        width: 40%;
-    }
-}*/
 .ww-page-main-image-container {
   width:70%;
   float:left;
@@ -132,4 +116,13 @@ tr {
   position: relative;
   font-family: "Courier New", Courier, monospace;
   font-size: 10px;
+}
+
+@media all and (max-width: 400px){
+  body {
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   overflow-y: hidden;
+  }
 }
