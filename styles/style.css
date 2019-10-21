@@ -6,7 +6,6 @@
 /* Global Styles go here */
 .body {
   color: black;
-  background-image: url("../assets/background.jpg") ;
 }
 img {
   width:100%;
@@ -19,8 +18,11 @@ img {
   top: 0;
 
 }
+tr {
+  vertical-align: top;
+}
 .ww-page {
-  width: 100%;
+  width: 600px;
   overflow: hidden;
   position:relative;
 }
