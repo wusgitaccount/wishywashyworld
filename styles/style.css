@@ -6,6 +6,7 @@
 /* Global Styles go here */
 .body {
   color: black;
+  font-family: "Courier New", Courier, monospace;
 }
 body::-webkit-scrollbar {
     width: .4em;
@@ -126,4 +127,9 @@ tr {
 .ww-page-right-image-container{
   width:50%;
   float:left;
+}
+.ww-credits {
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
 }
