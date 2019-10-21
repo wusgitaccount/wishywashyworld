@@ -13,6 +13,9 @@
 <div id="page-wrap">
 <div class="ww-page-container">
 
+  <audio controls="controls">
+  <source src="./assets/mozart_requiem.mp3"/>
+  </audio>
 
   <div class="ww-sidebar">
     <div class="ww-sidebar-inner">
@@ -31,7 +34,7 @@
     </a>
   </div>
   </div>
-  
+
   <div class="ww-page">
     <div class="ww-title">
       <img src="./assets/title.gif">
@@ -42,9 +45,13 @@
     <div class="ww-page-inner">
       <div class="ww-page-side-image-container">
         <img src="./assets/hairy-legs.png";>
+
           <div class="ww-bendyman";>
-            <img src="./assets/bendy-man.gif";>
+            <div id="drag" class="draggy">
+             <img src="./assets/bendy-man.gif";>
+            </div>
           </div>
+
       </div>
 
       <div class="ww-page-main-image-container">
@@ -98,7 +105,9 @@
 
 </div>
 </div>
-
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+  <script src="jquery.ui.touch-punch.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./js/wwworld.js"></script>
 
