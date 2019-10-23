@@ -38,7 +38,7 @@ tr {
 
 }
 .ww-sidebar {
-  margin-top: 20%;
+  margin-top: 5%;
   width:3%;
   position: fixed;
   z-index:101;
@@ -136,9 +136,8 @@ tr {
 {
     .ww-sidebar
     {
-        display: block;
-        float: none;
         width: 3%;
+        margin-top:5%;
     }
 }
 @media all and (max-width: 400px)
@@ -151,6 +150,7 @@ tr {
    overflow-y: hidden;
   }
   .ww-sidebar  {
-   width: 1%;
+   width: 3%;
+   margin-top:5%;
   }
 }
