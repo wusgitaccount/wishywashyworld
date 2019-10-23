@@ -34,13 +34,12 @@ tr {
   position:relative;
 }
 .ww-title {
-  width:200%;
-  overflow: visible;
+  width:100%;
+
 }
 .ww-sidebar {
   margin-top: 20%;
   width:3%;
-
   position: fixed;
   z-index:101;
   opacity:20%;
@@ -133,11 +132,25 @@ tr {
 
 }
 
-@media all and (max-width: 400px){
-  body {
+@media all and (max-width:800px)
+{
+    .ww-sidebar
+    {
+        display: block;
+        float: none;
+        width: 3%;
+    }
+}
+@media all and (max-width: 400px)
+{
+  .body
+  {
    width: 100%;
    height: 100vh;
    position: relative;
    overflow-y: hidden;
+  }
+  .ww-sidebar  {
+   width: 1%;
   }
 }
