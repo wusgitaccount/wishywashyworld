@@ -18,31 +18,25 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: pink;
   outline: 1px solid slategrey;
+  width: .4em;
 }
 
 img {
   width:100%;
 }
 
-
-.ww-title {
-
-  top: 0;
-
-}
-.ww-audio {
-
-}
 tr {
   vertical-align: top;
 }
 .ww-page {
-  width: 600px;
+  width: 650px;
   overflow: hidden;
   position:relative;
 }
-
-
+.ww-title {
+  width:200%;
+  overflow: visible;
+}
 .ww-sidebar {
   margin-top: 20%;
   width:3%;
@@ -103,6 +97,11 @@ tr {
   position: absolute;
   left: 40%;
   top: 60%;
+  transform-origin: 45% 55%;
+  transition: transform 1s, filter .5s ease-out;
+}
+.ww-fish:hover img {
+  transform: scale(2);
 }
 .ww-page-left-image-container{
   width:50%;
@@ -112,10 +111,26 @@ tr {
   width:50%;
   float:left;
 }
+.ww-page-right-image-container:hover img{
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow:0px 0px 30px 0px pink
+    -moz-box-shadow:0px 0px 30px 0px pink;
+    box-shadow:0px 0px 30px 0px pink;
+}
+.ww-mum {
+  position:absolute;
+  top:1%;
+  width:30%;
+}
 .ww-credits {
   position: relative;
   font-family: "Courier New", Courier, monospace;
   font-size: 10px;
+  width:50%;
+  margin: 0 auto;
+
 }
 
 @media all and (max-width: 400px){
