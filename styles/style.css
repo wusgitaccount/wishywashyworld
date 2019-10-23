@@ -42,16 +42,17 @@ tr {
   width:3%;
   position: fixed;
   z-index:101;
-  opacity:20%;
 }
 
 .ww-sidebar-inner img {
   transform-origin: 45% 55%;
   transition: transform 1s, filter .5s ease-out;
+  opacity:20%;
 }
 /* The Transformation */
 .ww-sidebar-inner:hover img {
   transform: scale(2);
+  opacity: 100%;
 }
 
 .ww-page-inner {
