@@ -26,21 +26,30 @@ img {
 }
 
 tr {
-  vertical-align: top;
+  vertical-align: middle;
 }
+
 .ww-page {
-  width: 600px;
+  width: 800px;
   overflow: hidden;
   position:relative;
 }
+
+.ww-page--heading {
+  width: 1500px;
+  overflow: visible;
+}
+
 .ww-title {
   width:100%;
+  overflow:visible;
+  vertical-align: middle;
 }
 .ww-audio {
   float:left;
-  width:50%;
+  width:20%;
   opacity:50%;
-  
+
 }
 .ww-audio:hover {
   opacity:100%;
@@ -120,14 +129,7 @@ tr {
   width:50%;
   float:left;
 }
-.ww-page-right-image-container:hover img{
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    border-radius:10px;
-    -webkit-box-shadow:0px 0px 30px 0px pink
-    -moz-box-shadow:0px 0px 30px 0px pink;
-    box-shadow:0px 0px 30px 0px pink;
-}
+
 .ww-mum {
   position:absolute;
   top:1%;
