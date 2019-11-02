@@ -148,7 +148,15 @@ tr {
   font-size: 10px;
   width:50%;
   margin: 0 auto;
-
+}
+.ww-credits--text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  width: 60%
 }
 
 @media all and (max-width:800px)
