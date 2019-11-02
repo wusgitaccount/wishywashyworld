@@ -56,7 +56,7 @@ tr {
 }
 
 .ww-sidebar {
-  width:10%;
+  width:15%;
   position: fixed;
   z-index:101;
 }
@@ -155,7 +155,7 @@ tr {
 {
     .ww-sidebar
     {
-        width: 20%;
+        width: 10%;
         margin-top:5%;
     }
     .ww-page--heading
@@ -173,7 +173,7 @@ tr {
    overflow-y: hidden;
   }
   .ww-sidebar  {
-   width: 20%;
+   width: 10%;
    margin-top:5%;
   }
   .ww-page--heading
